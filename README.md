@@ -1,6 +1,10 @@
-# viewport-units
+# New CSS viewport units
 
 Wanna try it yourself? Check out the [deploy on vercel](https://viewport-units.vercel.app/)
+
+## The Stack
+
+Using React + Vite + Emotion 🖤
 
 ## The why
 
