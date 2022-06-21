@@ -1,5 +1,7 @@
 # viewport-units
 
+Wanna try it yourself? Check out the [deploy on vercel](https://viewport-units.vercel.app/)
+
 ## The why
 
 If you ever built a mobile friendly website, you must have run into the good old full available height problem. A couple of years back, this was only possible by declaring "height: 100%;" throughout hundreds of nested of child nodes. Later the newly introduced viewport units "vh" and "vw" provided an alternative for this issue, but along came also a new challenge: while these units worked fine on desktop devices where the viewport stays the same size, various mobile browsers handled the matter of available viewport height entirely differently.
@@ -17,6 +19,3 @@ But Safari desktop and mobile already have full support, and it looks pretty ama
 Check out the video :)
 
 https://user-images.githubusercontent.com/34210193/174820642-178aa56d-8a33-48d4-a08d-f2dd95671670.mov
-
-
-[Deployed on vercel](https://viewport-units.vercel.app/)
