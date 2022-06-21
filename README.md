@@ -16,6 +16,7 @@ But Safari desktop and mobile already have full support, and it looks pretty ama
 
 Check out the video :)
 
-<video controls><source src="src/screen-recording.mov" type="video/mov"></video>
+https://user-images.githubusercontent.com/34210193/174820642-178aa56d-8a33-48d4-a08d-f2dd95671670.mov
+
 
 [Deployed on vercel](https://viewport-units.vercel.app/)
