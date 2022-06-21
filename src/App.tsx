@@ -2,11 +2,11 @@ import {css} from '@emotion/react';
 import {useState} from 'react';
 import Headroom from 'react-headroom';
 
-const options = ['100vh', 'vmax', 'lvh', 'svh', 'dvh'];
+const options = ['vh', 'vmin', 'vmax', 'lvh', 'svh', 'dvh'];
 
 export const App = () => {
   const [color, setColor] = useState<'salmon' | 'darkseagreen'>('salmon');
-  const [unit, setUnit] = useState<string>('100vh');
+  const [unit, setUnit] = useState<string>('vh');
   return (
     <div
       css={css`
@@ -14,7 +14,7 @@ export const App = () => {
         display: flex;
         flex-direction: column;
         height: 100vh;
-        height: ${unit};
+        height: ${`100${unit}`};
       `}
     >
       <Headroom
