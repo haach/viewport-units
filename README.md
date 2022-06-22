@@ -14,10 +14,9 @@ On all iOS devices, the space taken up by the URL and footer menu bar are not de
 
 ## An example
 
-A typical use case for this could be a view containing a form. The view is supposed to take the full view port height and the submit button is always attached to the very bottom of the screen. While this would work fine in desktop browsers with the `100vh` value, the button would be out of view for many mobile browsers that display a build in top and / or bottom menu bar.#
+A typical use case for this could be a view containing a form. The view is supposed to take the full view port height and the submit button is always attached to the very bottom of the screen. While this would work fine in desktop browsers with the `100vh` value, the button would be out of view for many mobile browsers that display a build in top and / or bottom menu bar.
 
-![mockup](https://user-images.githubusercontent.com/34210193/175009367-f594eb82-d65d-41c8-946e-63c2fed43b62.svg)
-
+<img width="400px" src="https://user-images.githubusercontent.com/34210193/175009367-f594eb82-d65d-41c8-946e-63c2fed43b62.svg" />
 
 ## The fix
 
