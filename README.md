@@ -22,7 +22,7 @@ A typical use case for this could be a view containing a form. The view is suppo
 
 In December 2021 the W3C described a set of new CSS units to fix this problem: [The Various Viewport-relative Units](https://www.w3.org/TR/css-values-4/#viewport-relative-units).
 
-I was playing around with some of the new viewport units in this mini project: lvh, svh, dvh. Most interesting to me was the dvh prop as it will change dynamically when the height of the viewport changes e.g. when a URL bar slides in or the bottom bar is in view. Sadly, the [Caniuse](https://caniuse.com/viewport-unit-variants) on these new CSS features still looks pretty bad, which resulted in most of the browsers I tested falling back to the `height: 100vh;` prop.
+I was playing around with some of these units in this mini project (`lvh`, `svh`, `dvh`). Most interesting to me was the `dvh` prop as it will change dynamically when the height of the viewport changes e.g. when a URL bar slides in or the bottom bar is in view. Sadly, the [Caniuse](https://caniuse.com/viewport-unit-variants) on these new CSS features still looks pretty bad, which resulted in most of the browsers I tested falling back to the `height: 100vh;` prop.
 
 But Safari desktop and mobile already have full support, and it looks pretty amazing! Can't wait until it arrives in other browsers, too.
 
